@@ -8,7 +8,7 @@ import java.util.Set;
 
 public class Day21 {
     public static void main(String[] args) throws FileNotFoundException {
-        File file = new File("21/src/input.txt");
+        File file = new File("input/21.input");
         Scanner scanner = new Scanner(file);
         long startTime = System.currentTimeMillis();
 
