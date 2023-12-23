@@ -30,6 +30,7 @@ public class Day22 {
             bricks.add(new Brick(Integer.parseInt(a[0]), Integer.parseInt(a[1]), Integer.parseInt(a[2]),
                                  Integer.parseInt(b[0]), Integer.parseInt(b[1]), Integer.parseInt(b[2])));
         }
+        scanner.close();
         return bricks;
     }
 
